@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Child Rights Advocacy</title>
+</head>
+<body>
+    <header>
+        <h1>Child Rights Advocacy</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#issues">Issues</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Child Rights Advocacy</h2>
+        <p>Your voice for the rights of every child.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Provide information about the organization's mission, vision, and history.</p>
+    </section>
+
+    <section id="issues">
+        <h2>Child Rights Issues</h2>
+        <p>Highlight key issues affecting children globally and locally.</p>
+    </section>
+
+    <section id="resources">
+        <h2>Resources</h2>
+        <p>Share educational materials, articles, and guides related to child rights.</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <!-- Include blog posts with links to full articles -->
+        <div class="blog-post">
+            <h3>Article Title</h3>
+            <p>Summary of the article. <a href="full-article.html">Read more...</a></p>
+        </div>
+        <!-- Repeat for more blog posts -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <!-- Include a contact form for inquiries and feedback -->
+    </section>
+
+    <section id="social-media">
+        <h2>Connect with Us</h2>
+        <!-- Include social media icons and links -->
+        <div class="social-icons">
+            <a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </section>
+
+    <section id="donate">
+        <h2>Support Us</h2>
+        <p>Your contribution helps us advocate for child rights. Donate today!</p>
+        <!-- Include a donation button linked to a secure payment gateway -->
+        <button onclick="openDonationPage()">Donate Now</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Child Rights Advocacy</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
